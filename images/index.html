@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brandh {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .hero-section {
+            height: 100vh;
+            background: url('hero-background.jpg') no-repeat center center/cover;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+        .hero-buttons a {
+            margin: 0 10px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .img-hero {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+        .card-icon {
+            font-size: 2rem;
+            color: #007bff;
+        }
+        .card-title {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .contact-form {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        .social-icons a {
+            font-size: 1.5rem;
+            color: #343a40;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav id="main-nav" class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brandh">Akhdan Naufal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="social-icons-container">
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item">
+                                <a href="mailto:akdnnfl@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/akdnn_937/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://wa.me/+6285150945443" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>  
+                    <h1 class="display-3" style="color: black;">I am Akhdan Naufal</h1>
+                    <p class="lead" style="color: black;">I am a student of smk negeri 12 jakarta and my goal is to enter a state university!</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-outline-light">My Portfolio</a>
+                        <a href="#" class="btn btn-outline-light"><i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="My.jpg" alt="" class="img-fluid img-hero animated-image">
+                </div>
+                <div class="col-lg-6 animated-text">
+                    <h2 class="display-4">Hi, I am Akhdan Naufal</h2>
+                    <p class="lead">Hi, My full name is Akhdan Naufal Syahputra, can also be called Akhdan, My hobby was originally playing soccer, but now there is no time:></p>
+                    <a href="#" class="btn btn-dark p-2">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="display-4">My Services</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem explicabo alias autem inventore officia molestiae, ea quos voluptate enim exercitationem dolorum cum nam labore vero voluptatem eveniet minus? Laborum!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-laptop card-icon mb-2"></i>
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-pen-fancy card-icon mb-2"></i>
+                        <h5 class="card-title">Graphic Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-camera card-icon mb-2"></i>
+                        <h5 class="card-title">Photography</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-video card-icon mb-2"></i>
+                        <h5 class="card-title">Video Editing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-mobile card-icon mb-2"></i>
+                        <h5 class="card-title">Mobile Development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card text-center p-5">
+                        <i class="fas fa-pen-alt card-icon mb-2"></i>
+                        <h5 class="card-title">Copywriting</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatem. Exercitationem suscipit autem doloribus, ipsum quia, eaque, expedita voluptatum saepe quo at dolores excepturi fugit illo ut doloremque vitae? Provident.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="display-4">My Skills</h2>
+                <p class="lead">I don't have good skills, but I love sholawat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="display-4">Contact Me</h2>
+                <p class="lead">Feel free to reach out to me for any inquiries or collaborations.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark p-2">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
